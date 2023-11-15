@@ -1,0 +1,275 @@
+/* Aplicando a fonte aos arquivos*/
+@font-face {
+    font-family: 'Poppins';
+    src: url(fontes/Poppins-Light.ttf) format('truetype');
+}
+/* Aplicando a fonte aos arquivos*/
+@font-face {
+    font-family: 'Lava Pro Grunge';
+    src: url(fontes/Lava\ Pro\ Grunge.ttf) format('truetype');
+}
+
+/* ------------- Configurações aplicadas a toda a página -------------  */
+
+html {
+    font-family: 'Poppins';
+    font-size: 100px;
+}
+
+body {
+    background-color: #e2e2e2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    overflow-x: hidden;
+}
+
+/*--------------------------------------------*/
+
+/* Cores */
+
+:root {
+    --cor-roxo: #72418c;
+    --cor-cinzaclaro: #e2e2e2;
+    --cor-preto: #000;
+    --cor-branco: #ffffff;
+    --cor-verde: #90a27a;
+}
+
+/*--------------------------------------------*/
+
+/* ------------- Navbar configurações ------------- */
+
+.logonavbar {
+    text-align: left;
+}
+
+.linksnavbar {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20%;
+    border-bottom: none;
+}
+
+.linksnavbardiv {
+    color: var(--cor-preto);
+    font-weight: 700;
+    text-align: left;
+    margin-left: 50%;
+    margin-right: 7.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a:hover {
+    color: var(--cor-cinzaclaro);
+    text-decoration: none;
+    color: inherit;
+    border-bottom: none;
+}
+
+.linkscarrossel {
+    text-decoration: none;
+}
+
+ol {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*--------------------------------------------*/
+
+/* Carrossel páginas */
+
+.carrossel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrossel img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.imagem {
+    flex: 0 0 100%;
+    font-weight: 700;
+    text-align: center;
+}
+
+#titulosimagens {
+    margin-top: -30%;
+    color: var(--cor-branco);
+    font-size: 60%;
+}
+/*--------------------------------------------*/
+
+/* Home parte 1 */
+
+.homept1 {
+    margin-top: 30%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: var(--cor-preto);
+    background-color: #e2e2e2;
+}
+
+.imgtexto1home {
+    height: 675px;
+    width: auto;
+    float: left;
+}
+
+.texto1home {
+    margin-left: 55%;
+    text-align: right;
+    font-family: 'Lava Pro Grunge';
+    font-size: 50%;
+    line-height: 1.2;
+}
+
+.textoroxohome {
+    color: var(--cor-roxo);
+}
+
+.texto2home {
+    color:var(--cor-preto);
+    font-family: 'Poppins';
+    margin-left: 55%;
+    font-size: 25%;
+    text-align: justify;
+    margin-top: 5%;
+}
+
+.tituloredes {
+    color: var(--cor-preto);
+    font-size: 35%;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+.barraverde1, .barraverde2, .barraverde3 {
+    background-color: var(--cor-verde);
+    height: 5px;
+    width: 100%;
+    border-radius: 3px;
+    
+}
+
+.containers {
+    justify-content: space-between;
+    margin-top: 4%;
+    display: flex;
+}
+
+.container1, .container2, .container3 {
+    height: 100px;
+    width: 27%;
+    background-color: var(--cor-cinzaclaro);
+}
+
+.logoinstagram, .logotwitter, .logoacervo  {
+    height: 60%;
+    width: auto;
+    margin-top: -25%;
+    margin-left: 3%;
+}
+
+
+.titulocontainer1, .titulocontainer2, .titulocontainer3 {
+    font-family: 'Poppins';
+    font-size: 25%;
+    color: var(--cor-verde);
+    margin-top: -3%;
+    margin-left: 3%;
+}
+
+.textocontainer1, .textocontainer2, .textocontainer3 {
+    font-family: 'Poppins';
+    font-size: 25%;
+    color: var(--cor-preto);
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+.imghomept1 {
+    margin-top: 20%;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 1855px;
+    height: auto;
+}
+
+.homept2 {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.textohomept2 {
+    color:var(--cor-preto);
+    font-family: 'Poppins';
+    font-size: 25%;
+    text-align: justify;
+    margin-top: 5%;
+}
+
+footer {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
+
+}
+ 
+
+/*ANNA MEXEU AQUI - FOOTER*/
+
+
+.container4 {
+        background-color: var(--cor-verde);
+        height: 5px;
+        width: 85%;
+        border-radius: 3px;
+}
+
+
+.barraverderodape {
+    background-color: var(--cor-verde);
+    height: 5px;
+   border-radius: 3px;
+}    
+
+.logorodape {
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+.navrodape {
+    list-style-type: none; 
+    padding: 0;
+    margin-top: 8%;
+}
+
+.instagram, .twitter, .acervo {
+    font-family: 'Poppins';
+    font-size: 40%;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: none;
+}
+
+.logoinstagram2, .logotwitter2, .logoacervo2  {
+    height: 35px;
+    width: 35px;
+}
+
+
+
+
